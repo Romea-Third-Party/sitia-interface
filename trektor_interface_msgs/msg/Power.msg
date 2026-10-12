@@ -1,12 +1,12 @@
 # Header containing timestamp
-Header header
+std_msgs/Header header
 
 # Is the power on
 bool power_on
 # Time of the power activation
-time power_on_time
+builtin_interfaces/Time power_on_time
 # Power uptime
-duration power_on_duration
+builtin_interfaces/Duration power_on_duration
 
 # Battery state of charge
 uint8 battery_soc

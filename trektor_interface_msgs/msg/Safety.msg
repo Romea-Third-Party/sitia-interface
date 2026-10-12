@@ -1,5 +1,5 @@
 # Header containing timestamp
-Header header
+std_msgs/Header header
 
 # Robot state is unknown
 uint8 ROBOT_STATE_UNKNOWN = 0

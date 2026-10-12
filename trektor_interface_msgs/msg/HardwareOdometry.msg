@@ -1,53 +1,53 @@
 # Header with time of message reception
-Header header
+std_msgs/Header header
 
 # Left Motor Wheel - Actual angle (modulo 2*PI)
-float64 Left_Wheel_Angle
+float64 left_wheel_angle
 # Right Motor Wheel - Actual angle (modulo 2*PI)
-float64 Right_Wheel_Angle
+float64 right_wheel_angle
 
 # Left Motor Wheel - Actual linear speed
-float64 Left_Wheel_Linear_Speed
+float64 left_wheel_linear_speed
 # Right Motor Wheel - Actual linear speed
-float64 Right_Wheel_Linear_Speed
+float64 right_wheel_linear_speed
 # Left Motor Wheel - Actual angular speed
-float64 Left_Wheel_Angular_Speed
+float64 left_wheel_angular_speed
 # Right Motor Wheel - Actual angular speed
-float64 Right_Wheel_Angular_Speed
+float64 right_wheel_angular_speed
 
 # Vehicle - Actual linear speed (from ABS sensor)
-float64 Vehicle_Linear_Speed
+float64 vehicle_linear_speed
 # Vehicle - Actual angular speed (from ABS sensor)
-float64 Vehicle_Angular_Speed
+float64 vehicle_angular_speed
 # Left Motor Wheel - Drive actual torque
-float64 Left_Wheel_Torque
+float64 left_wheel_torque
 # Right Motor Wheel - Drive actual torque
-float64 Right_Wheel_Torque
+float64 right_wheel_torque
 
 # Torque points
 TorquePoint[] torque_points
 
 # Left Motor Wheel - Max torque (Nm)
-float64 Left_Wheel_Max_Torque
+float64 left_wheel_max_torque
 # Right Motor Wheel - Max torque (Nm)
-float64 Right_Wheel_Max_Torque
+float64 right_wheel_max_torque
 
 # Left Motor Wheel - Ratio to max torque
-float64 Left_Wheel_Max_Torque_Ratio
+float64 left_wheel_max_torque_ratio
 # Right Motor Wheel - Ratio to max torque
-float64 Right_Wheel_Max_Torque_Ratio
+float64 right_wheel_max_torque_ratio
 
 # Vehicle - Actual linear speed (from drive)
-float64 Vehicle_Linear_Speed_Drive
+float64 vehicle_linear_speed_drive
 # Vehicle - Actual angular speed (from drive)
-float64 Vehicle_Angular_Speed_Drive
+float64 vehicle_angular_speed_drive
 
 # Left Motor Wheel - Drive warning/alarm
-uint16 Left_Whl_Drive_Warning_Alarm
+uint16 left_whl_drive_warning_alarm
 # Right Motor Wheel - Drive warning/alarm
-uint16 Right_Whl_Drive_Warning_Alarm
+uint16 right_whl_drive_warning_alarm
 
 # Left Motor Wheel - Actual distance cumulated
-float64 Left_Wheel_Distance
+float64 left_wheel_distance
 # Right Motor Wheel - Actual distance cumulated
-float64 Right_Wheel_Distance
+float64 right_wheel_distance

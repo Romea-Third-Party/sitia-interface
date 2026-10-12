@@ -7,11 +7,11 @@ find_package(builtin_interfaces REQUIRED)
 find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  HardwareOdometry.msg
-  Power.msg
-  Safety.msg
-  TorquePoint.msg
-  DEPENDENCIES std_msgs
+  msg/HardwareOdometry.msg
+  msg/Power.msg
+  msg/Safety.msg
+  msg/TorquePoint.msg
+  DEPENDENCIES std_msgs builtin_interfaces
 )
 
 ament_package()
